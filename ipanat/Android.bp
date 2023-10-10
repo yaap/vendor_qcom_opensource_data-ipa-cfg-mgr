@@ -23,6 +23,4 @@ cc_library_shared {
         "-Wall",
         "-Werror",
     ] + ["-DFEATURE_IPA_ANDROID"],
-
-    clang: true,
 }
